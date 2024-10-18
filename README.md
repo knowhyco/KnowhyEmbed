@@ -1,14 +1,5 @@
 <!-- markdownlint-disable MD030 -->
 
-# Flowise Embed
-
-Javascript library to display flowise chatbot on your website
-
-![Flowise](https://github.com/FlowiseAI/FlowiseChatEmbed/blob/main/images/ChatEmbed.gif?raw=true)
-
-Install:
-
-```bash
 yarn install
 ```
 
