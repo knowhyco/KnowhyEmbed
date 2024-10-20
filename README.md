@@ -1,13 +1,14 @@
 <!-- markdownlint-disable MD030 -->
 
 yarn install
-```
+
+````
 
 Dev:
 
 ```bash
 yarn dev
-```
+````
 
 Build:
 
