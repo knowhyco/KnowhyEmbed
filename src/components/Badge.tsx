@@ -1,5 +1,5 @@
 import { FooterTheme } from '@/features/bubble/types';
-import { Show, onCleanup, onMount } from 'solid-js';
+import { Show, createEffect } from 'solid-js';
 
 type Props = {
   footer?: FooterTheme;
@@ -25,7 +25,7 @@ export const Badge = (props: Props) => {
     });
   };
 
-  onMount(() => {
+  createEffect(() => {
     if (!document || !props.botContainer) return;
     observer = new MutationObserver(appendBadgeIfNecessary);
     observer.observe(props.botContainer, {
@@ -34,8 +34,10 @@ export const Badge = (props: Props) => {
     });
   });
 
-  onCleanup(() => {
-    if (observer) observer.disconnect();
+  createEffect(() => {
+    return () => {
+      if (observer) observer.disconnect();
+    };
   });
 
   return (
