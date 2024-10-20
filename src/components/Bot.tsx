@@ -160,7 +160,7 @@ const defaultWelcomeMessage = 'Hi there! How can I help?';
 
 /*const sourceDocuments = [
     {
-        "pageContent": "I know some are talking about “living with COVID-19”. Tonight – I say that we will never just accept living with COVID-19. \r\n\r\nWe will continue to combat the virus as we do other diseases. And because this is a virus that mutates and spreads, we will stay on guard. \r\n\r\nHere are four common sense steps as we move forward safely.  \r\n\r\nFirst, stay protected with vaccines and treatments. We know how incredibly effective vaccines are. If you’re vaccinated and boosted you have the highest degree of protection. \r\n\r\nWe will never give up on vaccinating more Americans. Now, I know parents with kids under 5 are eager to see a vaccine authorized for their children. \r\n\r\nThe scientists are working hard to get that done and we’ll be ready with plenty of vaccines when they do. \r\n\r\nWe’re also ready with anti-viral treatments. If you get COVID-19, the Pfizer pill reduces your chances of ending up in the hospital by 90%.",
+        "pageContent": "Bazıları “COVID-19 ile yaşamak” hakkında konuşuyor. Bu gece – COVID-19 ile yaşamayı asla kabul etmeyeceğimizi söylüyorum. \r\n\r\nVirüsle diğer hastalıklarla olduğu gibi mücadele etmeye devam edeceğiz. Ve bu, mutasyona uğrayan ve yayılan bir virüs olduğu için, tetikte kalacağız. \r\n\r\nİşte güvenli bir şekilde ilerlerken dört sağduyulu adım.  \r\n\r\nİlk olarak, aşılar ve tedavilerle koruma altında kalın. Aşıların ne kadar inanılmaz derecede etkili olduğunu biliyoruz. Aşılı ve güçlendirilmişseniz en yüksek koruma derecesine sahipsiniz. \r\n\r\nDaha fazla Amerikalıyı aşılamaktan asla vazgeçmeyeceğiz. Şimdi, 5 yaş altı çocukları olan ebeveynlerin çocukları için bir aşının yetkilendirilmesini görmek için sabırsızlandıklarını biliyorum. \r\n\r\nBilim insanları bunu başarmak için çok çalışıyorlar ve yaptıklarında bol miktarda aşı ile hazır olacağız. \r\n\r\nAyrıca antiviral tedavilere de hazırız. COVID-19'a yakalanırsanız, Pfizer hapı hastaneye yatma şansınızı %90 oranında azaltır.",
         "metadata": {
           "source": "blob",
           "blobType": "",
@@ -173,7 +173,7 @@ const defaultWelcomeMessage = 'Hi there! How can I help?';
         }
     },
     {
-        "pageContent": "sistance,  and  polishing  [65].  For  instance,  AI  tools  generate\nsuggestions based on inputting keywords or topics. The tools\nanalyze  search  data,  trending  topics,  and  popular  queries  to\ncreate  fresh  content.  What’s  more,  AIGC  assists  in  writing\narticles and posting blogs on specific topics. While these tools\nmay not be able to produce high-quality content by themselves,\nthey can provide a starting point for a writer struggling with\nwriter’s block.\nH.  Cons of AIGC\nOne of the main concerns among the public is the potential\nlack  of  creativity  and  human  touch  in  AIGC.  In  addition,\nAIGC sometimes lacks a nuanced understanding of language\nand context, which may lead to inaccuracies and misinterpre-\ntations. There are also concerns about the ethics and legality\nof using AIGC, particularly when it results in issues such as\ncopyright  infringement  and  data  privacy.  In  this  section,  we\nwill discuss some of the disadvantages of AIGC (Table IV).",
+        "pageContent": "sistance,  and  polishing  [65].  Örneğin, AI araçları anahtar kelimeler veya konular girilerek öneriler oluşturur. Araçlar, arama verilerini, trend konuları ve popüler sorguları analiz ederek yeni içerik oluşturur. Dahası, AIGC belirli konularda makale yazma ve blog gönderme konusunda yardımcı olur. Bu araçlar kendi başlarına yüksek kaliteli içerik üretemeyebilirken, yazar tıkanıklığı yaşayan bir yazar için bir başlangıç noktası sağlayabilirler.\nH.  AIGC'nin Eksileri\nHalk arasında en büyük endişelerden biri, AIGC'de potansiyel yaratıcılık eksikliği ve insan dokunuşudur. Ayrıca, AIGC bazen dil ve bağlamı anlamada ince bir anlayıştan yoksundur, bu da yanlışlıklara ve yanlış yorumlara yol açabilir. AIGC kullanımıyla ilgili etik ve yasal konular da vardır, özellikle telif hakkı ihlali ve veri gizliliği gibi sorunlara yol açtığında. Bu bölümde, AIGC'nin bazı dezavantajlarını tartışacağız (Tablo IV).",
         "metadata": {
           "source": "blob",
           "blobType": "",
@@ -208,7 +208,7 @@ const defaultWelcomeMessage = 'Hi there! How can I help?';
         }
     },
     {
-        "pageContent": "Main article: Views of Elon Musk",
+        "pageContent": "Ana makale: Elon Musk'un Görüşleri",
         "metadata": {
           "source": "https://en.wikipedia.org/wiki/Elon_Musk",
           "loc": {
@@ -220,7 +220,7 @@ const defaultWelcomeMessage = 'Hi there! How can I help?';
         }
     },
     {
-        "pageContent": "First Name: John\nLast Name: Doe\nAddress: 120 jefferson st.\nStates: Riverside\nCode: NJ\nPostal: 8075",
+        "pageContent": "Ad: John\nSoyad: Doe\nAdres: 120 jefferson st.\nEyalet: Riverside\nKod: NJ\nPosta: 8075",
         "metadata": {
           "source": "blob",
           "blobType": "",
@@ -239,7 +239,7 @@ const defaultBackgroundColor = '#ffffff';
 const defaultTextColor = '#303235';
 
 export const Bot = (botProps: BotProps & { class?: string }) => {
-  // set a default value for showTitle if not set and merge with other props
+  // showTitle için varsayılan bir değer ayarlayın ve diğer özelliklerle birleştirin
   const props = mergeProps({ showTitle: true }, botProps);
   let chatContainer: HTMLDivElement | undefined;
   let bottomSpacer: HTMLDivElement | undefined;
@@ -272,21 +272,21 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
   const [leadEmail, setLeadEmail] = createSignal('');
   const [disclaimerPopupOpen, setDisclaimerPopupOpen] = createSignal(false);
 
-  // drag & drop file input
-  // TODO: fix this type
+  // sürükle & bırak dosya girişi
+  // TODO: bu türü düzelt
   const [previews, setPreviews] = createSignal<FilePreview[]>([]);
 
-  // audio recording
+  // ses kaydı
   const [elapsedTime, setElapsedTime] = createSignal('00:00');
   const [isRecording, setIsRecording] = createSignal(false);
   const [recordingNotSupported, setRecordingNotSupported] = createSignal(false);
   const [isLoadingRecording, setIsLoadingRecording] = createSignal(false);
 
-  // follow-up prompts
+  // takip istemleri
   const [followUpPromptsStatus, setFollowUpPromptsStatus] = createSignal<boolean>(false);
   const [followUpPrompts, setFollowUpPrompts] = createSignal<string[]>([]);
 
-  // drag & drop
+  // sürükle & bırak
   const [isDragActive, setIsDragActive] = createSignal(false);
   const [uploadedFiles, setUploadedFiles] = createSignal<File[]>([]);
 
@@ -323,7 +323,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
   };
 
   /**
-   * Add each chat message into localStorage
+   * Her sohbet mesajını localStorage'a ekleyin
    */
   const addChatMessage = (allMessage: MessageType[]) => {
     const messages = allMessage.map((item) => {
@@ -340,9 +340,9 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
     setLocalStorageChatflow(props.chatflowid, chatId(), { chatHistory: messages });
   };
 
-  // Define the audioRef
+  // audioRef tanımlayın
   let audioRef: HTMLAudioElement | undefined;
-  // CDN link for default receive sound
+  // varsayılan alıcı ses için CDN bağlantısı
   const defaultReceiveSound = 'https://cdn.jsdelivr.net/gh/FlowiseAI/FlowiseChatEmbed@latest/src/assets/receive_message.mp3';
   const playReceiveSound = () => {
     if (props.textInput?.receiveMessageSound) {
@@ -453,13 +453,13 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
   };
 
   const clearPreviews = () => {
-    // Revoke the data uris to avoid memory leaks
+    // Bellek sızıntılarını önlemek için veri urilerini iptal edin
     previews().forEach((file) => URL.revokeObjectURL(file.preview));
     setPreviews([]);
   };
 
-  // Handle errors
-  const handleError = (message = 'Oops! There seems to be an error. Please try again.') => {
+  // Hataları ele alın
+  const handleError = (message = 'Oops! Bir hata var gibi görünüyor. Lütfen tekrar deneyin.') => {
     setMessages((prevMessages) => {
       const messages: MessageType[] = [...prevMessages, { message: props.errorMessage || message, type: 'apiMessage' }];
       addChatMessage(messages);
@@ -472,8 +472,8 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
   };
 
   const handleDisclaimerAccept = () => {
-    setDisclaimerPopupOpen(false); // Close the disclaimer popup
-    setCookie('chatbotDisclaimer', 'true', 365); // Disclaimer accepted
+    setDisclaimerPopupOpen(false); // Sorumluluk reddi açılır penceresini kapat
+    setCookie('chatbotDisclaimer', 'true', 365); // Sorumluluk reddi kabul edildi
   };
 
   const promptClick = (prompt: string) => {
@@ -490,7 +490,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       setChatId(data.chatId);
     }
 
-    // set message id that is needed for feedback
+    // geri bildirim için gereken mesaj kimliğini ayarlayın
     if (data.chatMessageId) {
       setMessages((prevMessages) => {
         const allMessages = [...cloneDeep(prevMessages)];
@@ -503,8 +503,8 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
     }
 
     if (input === '' && data.question) {
-      // the response contains the question even if it was in an audio format
-      // so if input is empty but the response contains the question, update the user message to show the question
+      // yanıt ses formatında olsa bile soruyu içerir
+      // bu yüzden giriş boşsa ama yanıt soruyu içeriyorsa, kullanıcı mesajını soruyu gösterecek şekilde güncelleyin
       setMessages((prevMessages) => {
         const allMessages = [...cloneDeep(prevMessages)];
         if (allMessages[allMessages.length - 2].type === 'apiMessage') return allMessages;
@@ -539,17 +539,17 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       },
       async onopen(response) {
         if (response.ok && response.headers.get('content-type') === EventStreamContentType) {
-          return; // everything's good
+          return; // her şey yolunda
         } else if (response.status === 429) {
-          const errMessage = (await response.text()) ?? 'Too many requests. Please try again later.';
+          const errMessage = (await response.text()) ?? 'Çok fazla istek. Lütfen daha sonra tekrar deneyin.';
           handleError(errMessage);
           throw new Error(errMessage);
         } else if (response.status === 403) {
-          const errMessage = (await response.text()) ?? 'Unauthorized';
+          const errMessage = (await response.text()) ?? 'Yetkisiz';
           handleError(errMessage);
           throw new Error(errMessage);
         } else if (response.status === 401) {
-          const errMessage = (await response.text()) ?? 'Unauthenticated';
+          const errMessage = (await response.text()) ?? 'Kimlik doğrulaması yapılmadı';
           handleError(errMessage);
           throw new Error(errMessage);
         } else {
@@ -603,7 +603,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
         closeResponse();
       },
       onerror(err) {
-        console.error('EventSource Error: ', err);
+        console.error('EventSource Hatası: ', err);
         closeResponse();
         throw err;
       },
@@ -633,7 +633,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
     });
   };
 
-  // Handle form submission
+  // Form gönderimini ele alın
   const handleSubmit = async (value: string, action?: IAction | undefined | null) => {
     if (value.trim() === '') {
       const containsFile = previews().filter((item) => !item.mime.startsWith('image') && item.type !== 'audio').length > 0;
@@ -688,13 +688,13 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
         formData: formData,
       });
       if (!response.data) {
-        setMessages((prevMessages) => [...prevMessages, { message: 'Unable to upload documents', type: 'apiMessage' }]);
+        setMessages((prevMessages) => [...prevMessages, { message: 'Belgeler yüklenemiyor', type: 'apiMessage' }]);
       } else {
-        // delay for vector store to be updated
+        // vektör deposunun güncellenmesi için gecikme
         const delay = (delayInms: number) => {
           return new Promise((resolve) => setTimeout(resolve, delayInms));
         };
-        await delay(2500); //TODO: check if embeddings can be retrieved using file name as metadata filter
+        await delay(2500); //TODO: gömülerin dosya adı kullanılarak meta veri filtresi ile alınıp alınamayacağını kontrol edin
       }
     }
 
@@ -751,7 +751,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
         const error = result.error;
         console.error(error);
         if (typeof error === 'object') {
-          handleError(`Error: ${error?.message.replaceAll('Error:', ' ')}`);
+          handleError(`Hata: ${error?.message.replaceAll('Hata:', ' ')}`);
           return;
         }
         if (typeof error === 'string') {
@@ -763,7 +763,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       }
     }
 
-    // Update last question to avoid saving base64 data to localStorage
+    // base64 verilerini localStorage'a kaydetmekten kaçınmak için son soruyu güncelleyin
     if (uploads && uploads.length > 0) {
       setMessages((data) => {
         const messages = data.map((item, i) => {
@@ -819,7 +819,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       setMessages(messages);
     } catch (error: any) {
       const errorData = error.response.data || `${error.response.status}: ${error.response.statusText}`;
-      console.error(`error: ${errorData}`);
+      console.error(`hata: ${errorData}`);
     }
   };
 
@@ -838,19 +838,19 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       let prompts: string[];
 
       if (Array.isArray(props.starterPrompts)) {
-        // If starterPrompts is an array
+        // starterPrompts bir dizi ise
         prompts = props.starterPrompts;
       } else {
-        // If starterPrompts is a JSON object
+        // starterPrompts bir JSON nesnesi ise
         prompts = Object.values(props.starterPrompts).map((promptObj: { prompt: string }) => promptObj.prompt);
       }
 
-      // Filter out any empty prompts
+      // Boş istemleri filtreleyin
       return setStarterPrompts(prompts.filter((prompt) => prompt !== ''));
     }
   });
 
-  // Auto scroll chat to bottom
+  // Sohbeti otomatik olarak aşağı kaydır
   createEffect(() => {
     if (messages()) {
       if (messages().length > 1) {
@@ -910,7 +910,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       setMessages([...filteredMessages]);
     }
 
-    // Determine if particular chatflow is available for streaming
+    // Belirli bir chatflow'un akış için uygun olup olmadığını belirleyin
     const { data } = await isStreamAvailableQuery({
       chatflowid: props.chatflowid,
       apiHost: props.apiHost,
@@ -921,7 +921,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       setIsChatFlowAvailableToStream(data?.isStreaming ?? false);
     }
 
-    // Get the chatbotConfig
+    // chatbotConfig'i alın
     const result = await getChatbotConfig({
       chatflowid: props.chatflowid,
       apiHost: props.apiHost,
@@ -989,7 +989,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       mimeType = blob.type.substring(0, pos);
     }
 
-    // read blob and add to previews
+    // blob'u okuyun ve önizlemelere ekleyin
     const reader = new FileReader();
     reader.readAsDataURL(blob);
     reader.onloadend = () => {
@@ -1029,7 +1029,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       }
     }
     if (!acceptFile) {
-      alert(`Cannot upload file. Kindly check the allowed file types and maximum allowed size.`);
+      alert(`Dosya yüklenemiyor. Lütfen izin verilen dosya türlerini ve maksimum izin verilen boyutu kontrol edin.`);
     }
     return acceptFile;
   };
@@ -1045,7 +1045,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
       if (isFileAllowedForUpload(file) === false) {
         return;
       }
-      // Only add files
+      // Yalnızca dosyaları ekleyin
       if (
         !uploadsConfig()
           ?.imgUploadSizeAndTypes.map((allowed) => allowed.fileTypes)
@@ -1106,7 +1106,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
         if (isFileAllowedForUpload(file) === false) {
           return;
         }
-        // Only add files
+        // Yalnızca dosyaları ekleyin
         if (
           !uploadsConfig()
             ?.imgUploadSizeAndTypes.map((allowed) => allowed.fileTypes)
@@ -1164,7 +1164,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
         } else if (item.kind === 'string' && item.type.match('^text/html')) {
           item.getAsString((s: string) => {
             if (s.indexOf('href') === -1) return;
-            //extract href
+            // href'i çıkar
             const start = s.substring(s.indexOf('href') + 6);
             const hrefStr = start.substring(0, start.indexOf('"'));
 
@@ -1184,7 +1184,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
 
   const handleDeletePreview = (itemToDelete: FilePreview) => {
     if (itemToDelete.type === 'file') {
-      URL.revokeObjectURL(itemToDelete.preview); // Clean up for file
+      URL.revokeObjectURL(itemToDelete.preview); // Dosya için temizleme
     }
     setPreviews(previews().filter((item) => item !== itemToDelete));
   };
@@ -1219,9 +1219,9 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
   };
 
   createEffect(
-    // listen for changes in previews
+    // önizlemelerdeki değişiklikleri dinleyin
     on(previews, (uploads) => {
-      // wait for audio recording to load and then send
+      // ses kaydının yüklenmesini bekleyin ve ardından gönderin
       const containsAudio = uploads.filter((item) => item.type === 'audio').length > 0;
       if (uploads.length >= 1 && containsAudio) {
         setIsRecording(false);
@@ -1289,13 +1289,13 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
             class="absolute top-0 left-0 bottom-0 right-0 flex flex-col items-center justify-center bg-black/60 backdrop-blur-sm text-white z-40 gap-2 border-2 border-dashed"
             style={{ 'border-color': props.bubbleBackgroundColor }}
           >
-            <h2 class="text-xl font-semibold">Drop here to upload</h2>
+            <h2 class="text-xl font-semibold">Yüklemek için buraya bırakın</h2>
             <For each={[...(uploadsConfig()?.imgUploadSizeAndTypes || []), ...(uploadsConfig()?.fileUploadSizeAndTypes || [])]}>
               {(allowed) => {
                 return (
                   <>
                     <span>{allowed.fileTypes?.join(', ')}</span>
-                    {allowed.maxUploadSize && <span>Max Allowed Size: {allowed.maxUploadSize} MB</span>}
+                    {allowed.maxUploadSize && <span>Maksimum İzin Verilen Boyut: {allowed.maxUploadSize} MB</span>}
                   </>
                 );
               }}
@@ -1330,7 +1330,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               class="my-2 ml-2"
               on:click={clearChat}
             >
-              <span style={{ 'font-family': 'Poppins, sans-serif' }}>Clear</span>
+              <span style={{ 'font-family': 'Poppins, sans-serif' }}>Temizle</span>
             </DeleteButton>
           </div>
         ) : null}
@@ -1416,7 +1416,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
                     <StarterPromptBubble
                       prompt={key}
                       onPromptClick={() => promptClick(key)}
-                      starterPromptFontSize={botProps.starterPromptFontSize} // Pass it here as a number
+                      starterPromptFontSize={botProps.starterPromptFontSize} // Burada bir sayı olarak geçirin
                     />
                   )}
                 </For>
@@ -1428,7 +1428,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               <>
                 <div class="flex items-center gap-1 px-5">
                   <SparklesIcon class="w-4 h-4" />
-                  <span class="text-sm text-gray-700">Try these prompts</span>
+                  <span class="text-sm text-gray-700">Bu istemleri deneyin</span>
                 </div>
                 <div class="w-full flex flex-row flex-wrap px-5 py-[10px] gap-2">
                   <For each={[...followUpPrompts()]}>
@@ -1436,7 +1436,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
                       <FollowUpPromptBubble
                         prompt={prompt}
                         onPromptClick={() => followUpPromptClick(prompt)}
-                        starterPromptFontSize={botProps.starterPromptFontSize} // Pass it here as a number
+                        starterPromptFontSize={botProps.starterPromptFontSize} // Burada bir sayı olarak geçirin
                       />
                     )}
                   </For>
@@ -1455,13 +1455,13 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
                 {recordingNotSupported() ? (
                   <div class="w-full flex items-center justify-between p-4 border border-[#eeeeee]">
                     <div class="w-full flex items-center justify-between gap-3">
-                      <span class="text-base">To record audio, use modern browsers like Chrome or Firefox that support audio recording.</span>
+                      <span class="text-base">Ses kaydetmek için, ses kaydını destekleyen modern tarayıcılar (Chrome veya Firefox gibi) kullanın.</span>
                       <button
                         class="py-2 px-4 justify-center flex items-center bg-red-500 text-white rounded-md"
                         type="button"
                         onClick={() => onRecordingCancelled()}
                       >
-                        Okay
+                        Tamam
                       </button>
                     </div>
                   </div>
@@ -1480,11 +1480,11 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
                         <CircleDotIcon color="red" />
                       </span>
                       <span>{elapsedTime() || '00:00'}</span>
-                      {isLoadingRecording() && <span class="ml-1.5">Sending...</span>}
+                      {isLoadingRecording() && <span class="ml-1.5">Gönderiliyor...</span>}
                     </div>
                     <div class="flex items-center">
                       <CancelButton buttonColor={props.textInput?.sendButtonColor} type="button" class="m-0" on:click={onRecordingCancelled}>
-                        <span style={{ 'font-family': 'Poppins, sans-serif' }}>Send</span>
+                        <span style={{ 'font-family': 'Poppins, sans-serif' }}>Gönder</span>
                       </CancelButton>
                       <SendButton
                         sendButtonColor={props.textInput?.sendButtonColor}
@@ -1493,7 +1493,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
                         class="m-0"
                         on:click={onRecordingStopped}
                       >
-                        <span style={{ 'font-family': 'Poppins, sans-serif' }}>Send</span>
+                        <span style={{ 'font-family': 'Poppins, sans-serif' }}>Gönder</span>
                       </SendButton>
                     </div>
                   </div>
