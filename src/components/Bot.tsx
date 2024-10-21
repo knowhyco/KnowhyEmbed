@@ -1283,11 +1283,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
               <div class="w-full flex flex-row flex-wrap px-5 py-[10px] gap-2">
                 <For each={[...starterPrompts()]}>
                   {(key) => (
-                    <StarterPromptBubble
-                      prompt={key}
-                      onPromptClick={() => promptClick(key)}
-                      starterPromptFontSize={botProps.starterPromptFontSize}
-                    />
+                    <StarterPromptBubble prompt={key} onPromptClick={() => promptClick(key)} starterPromptFontSize={botProps.starterPromptFontSize} />
                   )}
                 </For>
               </div>
