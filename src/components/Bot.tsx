@@ -156,7 +156,7 @@ export type LeadsConfig = {
   successMessage?: string;
 };
 
-const defaultWelcomeMessage = 'Hi there! How can I help?';
+const defaultWelcomeMessage = 'Selam Sana Yardımcı Olabilirim?';
 
 const defaultBackgroundColor = '#ffffff';
 const defaultTextColor = '#303235';
